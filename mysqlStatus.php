@@ -37,8 +37,8 @@ function status($host,$port,$timeout=6){
 
 
 
-//check web servers
-echo "checking web servers...\n";
+//check mysq servers
+echo "checking mysql servers...\n";
 foreach ($cluster as $serverName => $serverIp) {
     if (!status($serverIp, '3306')) {
         sendMail($serverIp, '3306');
