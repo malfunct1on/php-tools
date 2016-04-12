@@ -1,7 +1,0 @@
-
-{
-  "require": {
-    "sendgrid/sendgrid": "~4.0"
-  }
-}
-
